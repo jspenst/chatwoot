@@ -233,7 +233,7 @@ const menuItems = computed(() => {
           to: accountScopedRoute('captain_responses_index'),
         },
       ],
-    }*/,
+    },*/
     {
       name: 'Contacts',
       label: t('SIDEBAR.CONTACTS'),
@@ -475,13 +475,13 @@ const menuItems = computed(() => {
           label: t('SIDEBAR.INTEGRATIONS'),
           icon: 'i-lucide-blocks',
           to: accountScopedRoute('settings_applications'),
-        },
+        },/*
         {
           name: 'Settings Audit Logs',
           label: t('SIDEBAR.AUDIT_LOGS'),
           icon: 'i-lucide-briefcase',
           to: accountScopedRoute('auditlogs_list'),
-        },/*
+        },
         {
           name: 'Settings Custom Roles',
           label: t('SIDEBAR.CUSTOM_ROLES'),
@@ -493,13 +493,13 @@ const menuItems = computed(() => {
           label: t('SIDEBAR.SLA'),
           icon: 'i-lucide-clock-alert',
           to: accountScopedRoute('sla_list'),
-        },*/
+        },
         {
           name: 'Settings Security',
           label: t('SIDEBAR.SECURITY'),
           icon: 'i-lucide-shield',
           to: accountScopedRoute('security_settings_index'),
-        },/*
+        },
         {
           name: 'Settings Billing',
           label: t('SIDEBAR.BILLING'),
